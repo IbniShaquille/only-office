@@ -34,7 +34,7 @@ interface DocEditorConfig {
 }
 
 const defaultConfig: DocEditorConfig = {
-  src: 'https://ibni.onlyoffice.com',
+  src: '',
   mode: 'editor',
   width: '100%',
   height: '100%',
@@ -44,7 +44,7 @@ const defaultConfig: DocEditorConfig = {
     fileType: 'docx',
     key: 'sample-doc',
     title: 'Sample Document',
-    url: 'https://example.com/sample.docx'
+    url: ''
   },
   editorConfig: {
     mode: 'edit',
@@ -74,7 +74,7 @@ export default function DocEditor({
   documentTitle,
   documentKey,
   fileType = 'docx'
-}: DocEditorProps) {
+}: Readonly<DocEditorProps>) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

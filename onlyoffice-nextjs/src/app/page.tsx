@@ -19,7 +19,7 @@ const sampleDocuments: Document[] = [
     fileType: 'docx'
   },
   {
-    url: 'https://docs.google.com/document/d/1URNJO_onQsPUfMNTF-4uRqe-Dsv837f_x-kyyF2kgRU/edit?tab=t.0',
+    url: '',
     title: 'from link',
     key: 'doc-2',
     fileType: 'xlsx'

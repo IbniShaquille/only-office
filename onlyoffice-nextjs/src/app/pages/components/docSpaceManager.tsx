@@ -26,7 +26,7 @@ interface DocSpaceConfig {
 }
 
 const config: DocSpaceConfig = {
-  src: 'https://ibni.onlyoffice.com',
+  src: '',
   mode: 'manager',
   width: '100%',
   height: '100%',
